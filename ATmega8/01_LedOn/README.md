@@ -1,6 +1,5 @@
 ### LedOn project
 
-#### Description:
 A simple solution to light LEDs connected to the different ports pins.  
 Current limiting resistors - 300 Ohm.  
 Supply voltage - 5V.  
