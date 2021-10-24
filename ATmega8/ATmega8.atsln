@@ -11,6 +11,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "03_Button", "03_Button\03_B
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "04_7SegDisplayCC_StaticLighting", "04_7SegDisplayCC_StaticLighting\04_7SegDisplayCC_StaticLighting.cproj", "{7F80D5CD-897F-4BEF-9D1B-8F333083890A}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "05_7SegDisplayCA_StaticLighting", "05_7SegDisplayCA_StaticLighting\05_7SegDisplayCA_StaticLighting.cproj", "{284AEDA7-25B6-4601-9A70-1E55AA7501BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -33,6 +35,10 @@ Global
 		{7F80D5CD-897F-4BEF-9D1B-8F333083890A}.Debug|AVR.Build.0 = Debug|AVR
 		{7F80D5CD-897F-4BEF-9D1B-8F333083890A}.Release|AVR.ActiveCfg = Release|AVR
 		{7F80D5CD-897F-4BEF-9D1B-8F333083890A}.Release|AVR.Build.0 = Release|AVR
+		{284AEDA7-25B6-4601-9A70-1E55AA7501BA}.Debug|AVR.ActiveCfg = Debug|AVR
+		{284AEDA7-25B6-4601-9A70-1E55AA7501BA}.Debug|AVR.Build.0 = Debug|AVR
+		{284AEDA7-25B6-4601-9A70-1E55AA7501BA}.Release|AVR.ActiveCfg = Release|AVR
+		{284AEDA7-25B6-4601-9A70-1E55AA7501BA}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
