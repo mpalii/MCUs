@@ -19,6 +19,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "07_BinToHexConverter", "07_
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "08_7SegDisplayCC_DynamicLighting", "08_7SegDisplayCC_DynamicLighting\08_7SegDisplayCC_DynamicLighting.cproj", "{6C98F4CB-932F-420E-802D-416A3CF97A9C}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "09_7SegDisplayCC_DynamicLighting_NPN", "09_7SegDisplayCC_DynamicLighting_NPN\09_7SegDisplayCC_DynamicLighting_NPN.cproj", "{CA6D1D7D-A372-49F8-92EC-DBF7AEA4D31A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -57,6 +59,10 @@ Global
 		{6C98F4CB-932F-420E-802D-416A3CF97A9C}.Debug|AVR.Build.0 = Debug|AVR
 		{6C98F4CB-932F-420E-802D-416A3CF97A9C}.Release|AVR.ActiveCfg = Release|AVR
 		{6C98F4CB-932F-420E-802D-416A3CF97A9C}.Release|AVR.Build.0 = Release|AVR
+		{CA6D1D7D-A372-49F8-92EC-DBF7AEA4D31A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CA6D1D7D-A372-49F8-92EC-DBF7AEA4D31A}.Debug|AVR.Build.0 = Debug|AVR
+		{CA6D1D7D-A372-49F8-92EC-DBF7AEA4D31A}.Release|AVR.ActiveCfg = Release|AVR
+		{CA6D1D7D-A372-49F8-92EC-DBF7AEA4D31A}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
