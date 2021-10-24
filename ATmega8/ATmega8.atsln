@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "01_LedOn", "01_LedOn\01_Led
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "02_BlinkingLed", "02_BlinkingLed\02_BlinkingLed.cproj", "{2165A79A-29C1-431E-B412-0E3311500D1F}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "03_Button", "03_Button\03_Button.cproj", "{A76B8249-BB69-4687-B79E-86EE0AD4935B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -21,6 +23,10 @@ Global
 		{2165A79A-29C1-431E-B412-0E3311500D1F}.Debug|AVR.Build.0 = Debug|AVR
 		{2165A79A-29C1-431E-B412-0E3311500D1F}.Release|AVR.ActiveCfg = Release|AVR
 		{2165A79A-29C1-431E-B412-0E3311500D1F}.Release|AVR.Build.0 = Release|AVR
+		{A76B8249-BB69-4687-B79E-86EE0AD4935B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A76B8249-BB69-4687-B79E-86EE0AD4935B}.Debug|AVR.Build.0 = Debug|AVR
+		{A76B8249-BB69-4687-B79E-86EE0AD4935B}.Release|AVR.ActiveCfg = Release|AVR
+		{A76B8249-BB69-4687-B79E-86EE0AD4935B}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
