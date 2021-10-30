@@ -25,6 +25,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "10_Interrupts_TimerCounter0
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "11_Interrupts_TimerCounter1_Overflow", "11_Interrupts_TimerCounter1_Overflow\11_Interrupts_TimerCounter1_Overflow.cproj", "{D5D544AD-7A44-4E4D-B760-620A5E3FE87D}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "12_Interrupts_TimerCounter2_Overflow", "12_Interrupts_TimerCounter2_Overflow\12_Interrupts_TimerCounter2_Overflow.cproj", "{FFC0D6C3-A898-42EA-8077-8DEC4130B2C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -75,6 +77,10 @@ Global
 		{D5D544AD-7A44-4E4D-B760-620A5E3FE87D}.Debug|AVR.Build.0 = Debug|AVR
 		{D5D544AD-7A44-4E4D-B760-620A5E3FE87D}.Release|AVR.ActiveCfg = Release|AVR
 		{D5D544AD-7A44-4E4D-B760-620A5E3FE87D}.Release|AVR.Build.0 = Release|AVR
+		{FFC0D6C3-A898-42EA-8077-8DEC4130B2C6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{FFC0D6C3-A898-42EA-8077-8DEC4130B2C6}.Debug|AVR.Build.0 = Debug|AVR
+		{FFC0D6C3-A898-42EA-8077-8DEC4130B2C6}.Release|AVR.ActiveCfg = Release|AVR
+		{FFC0D6C3-A898-42EA-8077-8DEC4130B2C6}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
