@@ -29,6 +29,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "12_Interrupts_TimerCounter2
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "13_Interrupts_TimerCounter1_CompareMatchA", "13_Interrupts_TimerCounter1_CompareMatchA\13_Interrupts_TimerCounter1_CompareMatchA.cproj", "{E3638771-D11F-4223-9231-6FBD853729D9}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "14_Interrupts_TimerCounter2_CompareMatch", "14_Interrupts_TimerCounter2_CompareMatch\14_Interrupts_TimerCounter2_CompareMatch.cproj", "{60907B85-D7F6-4935-A02F-F0F2D9A51631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -87,6 +89,10 @@ Global
 		{E3638771-D11F-4223-9231-6FBD853729D9}.Debug|AVR.Build.0 = Debug|AVR
 		{E3638771-D11F-4223-9231-6FBD853729D9}.Release|AVR.ActiveCfg = Release|AVR
 		{E3638771-D11F-4223-9231-6FBD853729D9}.Release|AVR.Build.0 = Release|AVR
+		{60907B85-D7F6-4935-A02F-F0F2D9A51631}.Debug|AVR.ActiveCfg = Debug|AVR
+		{60907B85-D7F6-4935-A02F-F0F2D9A51631}.Debug|AVR.Build.0 = Debug|AVR
+		{60907B85-D7F6-4935-A02F-F0F2D9A51631}.Release|AVR.ActiveCfg = Release|AVR
+		{60907B85-D7F6-4935-A02F-F0F2D9A51631}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
