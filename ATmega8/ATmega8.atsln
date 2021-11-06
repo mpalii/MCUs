@@ -35,6 +35,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "15_Interrupts_ExternalInter
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "16_DynamicLighting_TimerCounter0_Overflow", "16_DynamicLighting_TimerCounter0_Overflow\16_DynamicLighting_TimerCounter0_Overflow.cproj", "{D03EDE80-0D5D-4AD0-9FEB-A7EF6FEC54F9}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "17_DynamicLighting_Library", "17_DynamicLighting_Library\17_DynamicLighting_Library.cproj", "{96DDC7DE-91A2-4D65-8705-F15BD34F766A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -105,6 +107,10 @@ Global
 		{D03EDE80-0D5D-4AD0-9FEB-A7EF6FEC54F9}.Debug|AVR.Build.0 = Debug|AVR
 		{D03EDE80-0D5D-4AD0-9FEB-A7EF6FEC54F9}.Release|AVR.ActiveCfg = Release|AVR
 		{D03EDE80-0D5D-4AD0-9FEB-A7EF6FEC54F9}.Release|AVR.Build.0 = Release|AVR
+		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Debug|AVR.Build.0 = Debug|AVR
+		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Release|AVR.ActiveCfg = Release|AVR
+		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
