@@ -37,6 +37,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "16_DynamicLighting_TimerCou
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "17_DynamicLighting_Library", "17_DynamicLighting_Library\17_DynamicLighting_Library.cproj", "{96DDC7DE-91A2-4D65-8705-F15BD34F766A}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "18_Device_Watch", "18_Device_Watch\18_Device_Watch.cproj", "{D43F6907-E476-4E30-BE37-1FDD706BBA60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -111,6 +113,10 @@ Global
 		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Debug|AVR.Build.0 = Debug|AVR
 		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Release|AVR.ActiveCfg = Release|AVR
 		{96DDC7DE-91A2-4D65-8705-F15BD34F766A}.Release|AVR.Build.0 = Release|AVR
+		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Debug|AVR.Build.0 = Debug|AVR
+		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Release|AVR.ActiveCfg = Release|AVR
+		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
