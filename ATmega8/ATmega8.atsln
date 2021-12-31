@@ -39,6 +39,12 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "17_DynamicLighting_Library"
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "18_Device_Watch", "18_Device_Watch\18_Device_Watch.cproj", "{D43F6907-E476-4E30-BE37-1FDD706BBA60}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "19_LCD1602_4bit_mode", "19_LCD1602_4bit_mode\19_LCD1602_4bit_mode.cproj", "{7F2AE653-C998-498E-99FF-800159E7939B}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "20_LCD1602_8bit_mode", "20_LCD1602_8bit_mode\20_LCD1602_8bit_mode.cproj", "{03DC9260-1F58-48AF-A6F2-0A98881BAD96}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "21_Device_Watch", "21_Device_Watch\21_Device_Watch.cproj", "{8979476B-15A5-44D4-8517-1C9EAE1C0FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -117,6 +123,18 @@ Global
 		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Debug|AVR.Build.0 = Debug|AVR
 		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Release|AVR.ActiveCfg = Release|AVR
 		{D43F6907-E476-4E30-BE37-1FDD706BBA60}.Release|AVR.Build.0 = Release|AVR
+		{7F2AE653-C998-498E-99FF-800159E7939B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7F2AE653-C998-498E-99FF-800159E7939B}.Debug|AVR.Build.0 = Debug|AVR
+		{7F2AE653-C998-498E-99FF-800159E7939B}.Release|AVR.ActiveCfg = Release|AVR
+		{7F2AE653-C998-498E-99FF-800159E7939B}.Release|AVR.Build.0 = Release|AVR
+		{03DC9260-1F58-48AF-A6F2-0A98881BAD96}.Debug|AVR.ActiveCfg = Debug|AVR
+		{03DC9260-1F58-48AF-A6F2-0A98881BAD96}.Debug|AVR.Build.0 = Debug|AVR
+		{03DC9260-1F58-48AF-A6F2-0A98881BAD96}.Release|AVR.ActiveCfg = Release|AVR
+		{03DC9260-1F58-48AF-A6F2-0A98881BAD96}.Release|AVR.Build.0 = Release|AVR
+		{8979476B-15A5-44D4-8517-1C9EAE1C0FC7}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8979476B-15A5-44D4-8517-1C9EAE1C0FC7}.Debug|AVR.Build.0 = Debug|AVR
+		{8979476B-15A5-44D4-8517-1C9EAE1C0FC7}.Release|AVR.ActiveCfg = Release|AVR
+		{8979476B-15A5-44D4-8517-1C9EAE1C0FC7}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
