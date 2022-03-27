@@ -1,7 +1,6 @@
 # MCUs
 
-***ATmega8/*** folder is a multi-project solution for Microchip Studio IDE (Atmel Studio).  
-Open the ***ATmega8/ATmega8.atsln*** file in Microchip Studio IDE (Atmel Studio), then rebuild the solution and all included projects will be ready to work.
+***ATmega8/*** folder is a multi-project solution for Microchip Studio IDE (Atmel Studio). Open the ***ATmega8.atsln*** file in Microchip Studio IDE (Atmel Studio), then rebuild the solution and all included projects will be ready to work.
 
 ### MCUs datasheets
 - [ATmega8(L)](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2486-8-bit-AVR-microcontroller-ATmega8_L_datasheet.pdf)  
