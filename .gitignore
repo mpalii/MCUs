@@ -1,6 +1,11 @@
+# Microchip Studio
 Debug/
 .vs/
 *.componentinfo.xml
 *.pdsprj.*.workspace
 *.pdsbak
 
+# Visual Studio Code
+.vscode/
+c_cpp_properties.json
+settings.json
