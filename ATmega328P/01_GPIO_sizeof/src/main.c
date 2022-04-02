@@ -16,7 +16,7 @@ int main(void)
 	// Implementation-specific data type, for ATmega328P is a 'long unsigned int'
 	size_t result;
 	
-	//result = sizeof(char);
+	result = sizeof(char);
 	//result = sizeof(unsigned char);
 	//result = sizeof(signed char);
 	
@@ -66,7 +66,7 @@ int main(void)
 	//result = sizeof(0xFF);
 	//result = sizeof(0xffFF);
 	//result = sizeof(0xFFffFF);
-	result = sizeof(0xFFffFFffFFffFF);
+	//result = sizeof(0xFFffFFffFFffFF);
 	
 	// Show result in port D
 	PORTD = result;
