@@ -1,10 +1,10 @@
 # Makefile
-SOURCE		= src/main.c
-PROJECT 	= 01_GPIO_sizeof
+SOURCE		= ./src/main.c
+PROJECT 	= 01_TypeLayout
 DEVICE 		= atmega328p
 PROGRAMMER 	= usbasp
 
-default: check
+default: build
 
 build : clean
 	@mkdir target
@@ -17,15 +17,15 @@ disasm: target/$(PROJECT).elf
 	avr-objdump -d target/$(PROJECT).elf
 
 clean: 
-	@if [ -d ./target ]; 												\
-	then																\
-		rm ./target/$(PROJECT).hex ;									\
-		rm ./target/$(PROJECT).elf ;									\
-		rm ./target/$(PROJECT).o ;										\
-		rmdir ./target;													\
-		echo "INFO: Previously generated target files removed";			\
-	else 																\
-		echo "INFO: No generated target files";							\
+	@if [ -d ./target ]; \
+	then \
+		rm ./target/$(PROJECT).hex ; \
+		rm ./target/$(PROJECT).elf ; \
+		rm ./target/$(PROJECT).o ; \
+		rmdir ./target; \
+		echo "INFO: Previously generated target files removed";	\
+	else \
+		echo "INFO: No generated target files"; \
 	fi
 
 size:
