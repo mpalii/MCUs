@@ -9,3 +9,9 @@ Debug/
 .vscode/
 c_cpp_properties.json
 settings.json
+
+# Other
+target/
+*.o
+*.elf
+*.hex
