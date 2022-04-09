@@ -2,9 +2,10 @@
 
 ***ATmega8/*** folder is a multi-project solution for Microchip Studio IDE (Atmel Studio). Open the ***ATmega8.atsln*** file in Microchip Studio IDE (Atmel Studio), then rebuild the solution and all included projects will be ready to work.
 
-### MCUs datasheets
+### MCUs datasheets and documentation
 - [ATmega8(L)](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2486-8-bit-AVR-microcontroller-ATmega8_L_datasheet.pdf)  
 - [ATmega48A/PA/88A/PA/168A/PA/328/P](https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf)  
+- [AVR Instruction Set Manual](http://ww1.microchip.com/downloads/en/devicedoc/atmel-0856-avr-instruction-set-manual.pdf)  
 
 ### Troubleshoot  
 #### 1. USBASP driver for Windows 10  
