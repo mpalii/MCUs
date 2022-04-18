@@ -16,3 +16,12 @@ For 'libusbK': *step-1* download and install 'UsbK Development Kit' application;
 Rootcause is a high internal clock frequency of a programmer. *First solution* is to specify baudrate with a '-B' flag:  
 `avrdude -c usbasp -p m328p -B3` - this will set SCK frequency to 187500 Hz.  
 *Second solution* is to close jumper JP3 in the USBASP device. No flags for avrdude is need in this case.  
+#### 3. Visual Studio Code configuration  
+To prepare VSC for working with avr-toolchai:  
+- go to IntelliSense Configurations  
+- hit the 'Add Configuration' button, type new configuration name (e.g. AVR) and hit 'Ok'  
+- update 'Compiler path' input field with: *{path prefix}\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe*  
+- add path to the 'Include path' input field: *{path prefix}/toolchain/avr8/avr8-gnu-toolchain/avr/include/\*\**  
+- add *__AVR_ATmega328P__* to 'Defines' section  
+#### 4. Atmel/Microchip Studio line numbers  
+To show line numbers in A/M Studio go to **'Tools' -> 'Options' -> 'Text Editor' -> 'All Language'** and toggle **Line numbers** checkbox in the **Settings** section  
