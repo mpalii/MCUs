@@ -8,8 +8,8 @@ default: build
 
 build : clean
 	@mkdir target
-	@avr-gcc -Wall -Os -c $(SOURCE) -o ./target/$(PROJECT).o
-	@avr-gcc -Wall -Os -o ./target/$(PROJECT).elf ./target/$(PROJECT).o
+	@avr-gcc -Wall -Os -mmcu=$(DEVICE) -c $(SOURCE) -o ./target/$(PROJECT).o
+	@avr-gcc -Wall -Os -mmcu=$(DEVICE) -o ./target/$(PROJECT).elf ./target/$(PROJECT).o
 	@avr-objcopy -j .text -j .data -O ihex ./target/$(PROJECT).elf ./target/$(PROJECT).hex
 	@echo "INFO: Build finished successfully"
 

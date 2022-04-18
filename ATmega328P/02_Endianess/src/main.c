@@ -3,9 +3,8 @@
  * Author : Maksym Palii
  */ 
 
-#define __AVR_ATmega328P__
-
 #include <avr/io.h>
+#include <stdbool.h>
 
 int main(void)
 {
@@ -20,7 +19,7 @@ int main(void)
     PORTD = *first_byte_address;            // LSB [0010 0000]
     //PORTD = *(first_byte_address + 1);      // MSB [0000 0010]
 
-    while (1) 
+    while (true) 
     {
 		  // No logic
     }

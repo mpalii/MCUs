@@ -3,7 +3,6 @@
  * Author : Maksym Palii
  */ 
 
-#define __AVR_ATmega328P__
 #define F_CPU (1000000)
 #define half_period_for_frequency(FR) (F_CPU/(2.0 * FR))
 

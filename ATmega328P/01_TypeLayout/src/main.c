@@ -3,10 +3,9 @@
  * Author : Maksym Palii
  */ 
 
-#define __AVR_ATmega328P__
-
 #include <avr/io.h>
 #include <stddef.h>
+#include <stdbool.h>
 
 int main(void)
 {
@@ -82,7 +81,7 @@ int main(void)
 	// Show result in port D
 	PORTD = result;
 
-    while (1) 
+    while (true) 
     {
 		// No logic
     }
