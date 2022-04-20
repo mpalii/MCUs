@@ -1,0 +1,21 @@
+### Button
+
+This solution contains several examples with buttons.  
+
+Example 01 - INTERNAL PULL-UP resistor is used  
+*SIMULATION: No simulation issues in Proteus*  
+*REALTIME: The start is fine. Several hits on the button are accompanied by a bounce*  
+
+<img src="01_InternalPullUp/Proteus/scheme.jpg">
+
+Example 02 - INTERNAL PULL-UP resistor is used, R = 2.2kΩ and C = 0.1µF is used for debouncing  
+*SIMULATION: leds is turned on at the beginning of a simulation in Proteus*  
+*REALTIME: The start is incorrect: leds is turned on at the beggining. RC solution for debounce is fine*  
+**FIX: the capacitor needs some time to become fully charged, so after internal pull-up resistor activation some delay is needed**  
+
+<img src="02_InternalPullUp_RC/Proteus/scheme.jpg">
+
+See also:  
+- [11 Myths About Switch Bounce/Debounce](https://www.electronicdesign.com/technologies/analog/article/21155418/logiswitch-11-myths-about-switch-bouncedebounce)  
+- [A Guide to Debouncing](https://my.eng.utah.edu/~cs5780/debouncing.pdf)  
+- [Debounce a Switch](https://www.youtube.com/watch?v=e1-kc04jSE4&t)  
