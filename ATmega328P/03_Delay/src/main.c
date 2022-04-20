@@ -14,21 +14,21 @@
 
 int main(void)
 {
-	// Configure data direction for pins 0 (port D) as OUTPUT
-	DDRD |= _BV(PIND0);
+    // Configure data direction for pins 0 (port D) as OUTPUT
+    DDRD |= _BV(PIND0);
 
-	// Set pin 0 (port D) driven high (one)
-	PORTD |= _BV(PIND0);
+    // Set pin 0 (port D) driven high (one)
+    PORTD |= _BV(PIND0);
 
-	// Half-period
-	const double HALF_PERIOD = half_period_for_frequency(1);
-	//const double HALF_PERIOD = half_period_for_frequency(240);
-	//const double HALF_PERIOD = half_period_for_frequency(50);
-	//const double HALF_PERIOD = half_period_for_frequency(24);
+    // Half-period
+    const double HALF_PERIOD = half_period_for_frequency(1);
+    //const double HALF_PERIOD = half_period_for_frequency(240);
+    //const double HALF_PERIOD = half_period_for_frequency(50);
+    //const double HALF_PERIOD = half_period_for_frequency(24);
 
-	while (true) 
-	{
-		delay_us(HALF_PERIOD);
-		PORTD ^= _BV(PIND0);    // toggle pin
-	}
+    while (true) 
+    {
+        delay_us(HALF_PERIOD);
+        PORTD ^= _BV(PIND0);    // toggle pin
+    }
 }

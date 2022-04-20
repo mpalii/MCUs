@@ -26,7 +26,7 @@ int main(void)
             // some event start
         }
         
-        // check whether button was rekeased
+        // check whether button was released
         if (bit_is_set(PINC, PINC0) && button_was_pressed)
         {
             button_was_pressed = false;
