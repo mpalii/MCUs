@@ -1,7 +1,9 @@
-/*
- * Created: 27/03/2022 16:53:21
- * Author : Maksym Palii
- */ 
+/**
+ * @author Maksym Palii
+ * @brief Type Layout
+ * @version 0.1
+ * @date 2022-04-18 
+ */
 
 #include <avr/io.h>
 #include <stddef.h>
@@ -81,10 +83,8 @@ int main(void)
 	// Show result in port D
 	PORTD = result;
 
-    while (true) 
-    {
+	while (true) 
+	{
 		// No logic
-    }
+	}
 }
-
-
